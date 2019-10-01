@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{box-sizing: border-box}
+#container {
+	width: 1020px;
+	margin: 0 auto;
+}
+#tabs {
+	width: 100%;
+	height: auto;
+	float: left;
+	
+}
+header {
+		width: 100%;
+		height: auto;
+	    padding-top: 30px;
+		float: left;
+		}
+header h1, h4, p{
+	text-align: center;
+	color:#878787;
+	font-family: 'Fjalla One', sans-serif;;
+	line-height: 30px;
+}
+nav {
+	background-color: #EE9B48;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+section {
+	float: left;
+	background-color:#E5E3CD;
+	width: 100%;
+	border: 1px solid #CACACA;
+}
+
+.socialmediabox {
+	width: 100%;
+	height: 55px;
+	float: left;
+}
+.socialmediabox img {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#aboutJLino {
+	float: left;
+}
+#aboutJlino h1 {
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;;
+	color:#878787;
+}
+#recipes {
+	width: 33.3%;
+	background-color:#F9F4E6;
+	height: 600px;
+	float: left;
+	color:#878787;
+	font-family: 'Fjalla One', sans-serif;;
+}
+#recipes h2, h3 {
+	text-align: center;
+}
+
+#YouTubeVideo {
+	float: middle;
+}
+.videocontainer {
+	width: 560px;
+	height: 315px;
+	margin: 0 auto;
+	float: middle;
+}
+#YouTubeVideo h1 {
+	text-align:center;
+}
+#vid {
+	width: 100%;	
+}
+#vid h2{
+	text-align:center;
+}
+#links {
+	float: left;
+}
+.articlelinks {
+	width: 25%;
+	background-color:#ffffff;
+	height: 300px;
+	float: left;
+	color:#878787;
+	font-family: 'Fjalla One', sans-serif;;
+}
+.articlelinks p {
+	text-align: left;
+	padding-left:15px;
+	padding-right: 5px;
+	line-height: 25px;
+	font-size: .8em;
+}
+.articletitle {
+	width: 100%;
+	height: 70px;
+	float: left;
+	background-color: #ffffff;
+}
+.articletitle h2 {
+	text-align: center;
+	color:#878787;
+	font-family: 'Fjalla One', sans-serif;;
+}
+footer {
+	width: 100%;
+	height: 100px;
+	float: left;
+	clear:both;
+	background-color: #EE9B48;
+}
+footer h5, p {
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;;
+	color:#878787;
+}
